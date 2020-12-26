@@ -1,0 +1,22 @@
+{
+    "name": "@notsosmoothie/vue-how-to-conditionally-register-components",
+    "description": "An example for registering components dynamically in Vue.js.",
+    "version": "0.1.0",
+    "devDependencies": {
+        "@symfony/webpack-encore": "^0.33.0",
+        "cross-env": "^7.0.2",
+        "vue": "^2.6.11",
+        "vue-loader": "^15.9.3",
+        "vue-template-compiler": "^2.6.11"
+    },
+    "license": "MIT",
+    "private": true,
+    "scripts": {
+        "development": "cross-env NODE_ENV=development encore dev",
+        "serve": "cross-env NODE_ENV=development encore dev-server --https --port 9000",
+        "webpack-profile": "npm run development -- --profile --json"
+    },
+    "browserslist": [
+        "last 3 versions"
+    ]
+}
