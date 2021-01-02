@@ -1,0 +1,22 @@
+{
+    "name": "@notsosmoothie/webpack-encore-how-to-download-google-fonts",
+    "description": "An example for registering components dynamically in Vue.js.",
+    "version": "0.1.0",
+    "devDependencies": {
+        "@beyonk/google-fonts-webpack-plugin": "^1.5.0",
+        "@symfony/webpack-encore": "^0.33.0",
+        "cross-env": "^7.0.2",
+        "sass": "^1.32.0",
+        "sass-loader": "^10.1.0"
+    },
+    "license": "MIT",
+    "private": true,
+    "scripts": {
+        "production": "cross-env NODE_ENV=production encore production",
+        "serve": "cross-env NODE_ENV=development encore dev-server --https --port 8080",
+        "webpack-profile": "npm run production -- --profile --json"
+    },
+    "browserslist": [
+        "last 3 versions"
+    ]
+}
