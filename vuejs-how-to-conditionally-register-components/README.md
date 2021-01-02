@@ -24,7 +24,7 @@ Run `npm run serve` to fire up a dev-server and visit [localhost:9000](https://l
 
 Copyright (c) 2020 Marc Eichenseher
 
-Good news, this plugin is free for everyone! Since it's released under the [MIT](LICENSE) you can use it free of charge on your personal or commercial project.
+Good news, this stuff is free for everyone! Since it's released under the [MIT](LICENSE) you can use it free of charge on your personal or commercial project.
 
 ## Contributing
 
